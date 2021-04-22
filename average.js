@@ -5,7 +5,6 @@
 // 12 + 14 + 16 = 42
 // 42 / 3 = 14
 
-
 const average = (...numbers) => {
     let result = 0;
     for (let i = 0; i < numbers.length; i++) {
@@ -25,5 +24,5 @@ console.log(average(12, 14, 16)); // -> 14
 // 5
 // 14
 
-// I am trying out this version...
-// const average = (...args) => [...args].reduce((a, b) => (a + b) / 2);
+// Also works this version...!!
+// const average = (...args) => [...args].reduce((a, b) => a + b) / [...args].length;
