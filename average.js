@@ -18,11 +18,11 @@ console.log(average(1, 2)); // -> 1.5
 console.log(average(1, 3, 6, 10)); // -> 5
 console.log(average(12, 14, 16)); // -> 14
 
+// Also works this version...!!
+// const average = (...args) => [...args].reduce((a, b) => a + b) / [...args].length;
+
 // ANSWER: it prints 
 // 0
 // 1.5
 // 5
 // 14
-
-// Also works this version...!!
-// const average = (...args) => [...args].reduce((a, b) => a + b) / [...args].length;
